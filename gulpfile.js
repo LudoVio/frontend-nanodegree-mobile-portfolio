@@ -49,7 +49,9 @@ gulp.task('scripts', function () {
 // Inline everything we can in index.html
 gulp.task('inline', function () {
     gulp.src('dist/index.html')
-        .pipe($.inline({base: 'dist'}))
+        .pipe($.inline({
+            base: 'dist',
+            ignore: ['js/analytics.js']}))
         .pipe(gulp.dest('dist'))
         .pipe($.size({title: 'inline'}));
 });
