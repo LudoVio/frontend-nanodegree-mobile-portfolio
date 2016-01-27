@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab4e8df-482d-4a8b-a626-1a3ae3d9b9d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/images/pizzeria.jpg" afterPath="$PROJECT_DIR$/app/views/images/pizzeria.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/images/pizzeria.jpg" afterPath="$PROJECT_DIR$/dist/views/images/pizzeria.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="frontend-nanodegree-mobile-portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deploy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deploy">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.056338027">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding />
+            <state vertical-scroll-proportion="0.5915493">
+              <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,10 +46,10 @@
         <option value="$PROJECT_DIR$/gulpfile.babel.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/deploy" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -109,6 +108,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,34 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6760563">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <marker date="1453868702112" expanded="true" signature="31:3191" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="40:410" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="420:3183" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="433:562" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="591:3176" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="616:925" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="954:2102" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="967:2091" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="982:1267" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="1283:1567" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="1583:1866" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="1882:2077" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="1908:1921" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="2116:2200" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="2236:2740" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="2260:2329" placeholder="{...}" />
-            <marker date="1453868702112" expanded="true" signature="2349:2727" placeholder="{...}" />
-            <marker date="1453868702112" expanded="true" signature="2753:3048" placeholder="..." />
-            <marker date="1453868702112" expanded="true" signature="2775:2894" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -393,6 +378,16 @@
         <state vertical-scroll-proportion="0.056338027">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5915493">
+          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
