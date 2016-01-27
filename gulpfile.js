@@ -58,8 +58,8 @@ gulp.task('inline', function () {
 gulp.task('clean', del.bind(null, 'dist'));
 
 // Build all
-gulp.task('build', ['clean'], function (cb) {
-    runSequence(['html', 'images', 'styles', 'scripts'], cb);
+gulp.task('build', function (cb) {
+    runSequence('clean', ['html', 'images', 'styles', 'scripts'], 'inline', cb);
 });
 
 // Watch files for changes & reload
@@ -68,9 +68,4 @@ gulp.task('serve', ['build'], function () {
         server: 'dist',
         tunnel: true
     });
-
-    gulp.watch(['app/*.html', 'app/views/*.html'], ['html', reload]);
-    gulp.watch(['app/css/*.css', 'app/views/css/*.css'], ['styles', reload]);
-    gulp.watch(['app/js/*.js', 'app/views/js/*.js'], ['scripts', reload]);
-    gulp.watch(['app/img/*', 'app/views/images/*'], ['images', reload]);
 });

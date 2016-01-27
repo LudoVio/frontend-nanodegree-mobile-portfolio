@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab4e8df-482d-4a8b-a626-1a3ae3d9b9d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="frontend-nanodegree-mobile-portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,14 +23,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.85915494">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.7746479">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,8 +47,8 @@
         <option value="$PROJECT_DIR$/deploy" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -415,31 +410,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5070422">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding>
-            <marker date="1453873239082" expanded="true" signature="276:419" placeholder="{...}" />
-            <marker date="1453873239082" expanded="true" signature="474:702" placeholder="{...}" />
-            <marker date="1453873239082" expanded="true" signature="551:622" placeholder="{&quot;progressive&quot;: true...}" />
-            <marker date="1453873239082" expanded="true" signature="757:969" placeholder="{...}" />
-            <marker date="1453873239082" expanded="true" signature="1026:1240" placeholder="{...}" />
-            <marker date="1453873239082" expanded="true" signature="1318:1468" placeholder="{...}" />
-            <marker date="1453873239082" expanded="true" signature="1600:1665" placeholder="{...}" />
-            <marker date="1453873239082" expanded="true" signature="1747:2118" placeholder="{...}" />
-            <marker date="1453873239082" expanded="true" signature="1765:1817" placeholder="{&quot;server&quot;: 'dist'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.85915494">
           <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1453873377675" expanded="true" signature="31:16603" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="40:2002" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="300:1546" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="1572:1992" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="2012:16595" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="2025:8502" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="8531:16588" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="8556:8865" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="8894:15227" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="8907:15216" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="8922:9207" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="9223:9507" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="9523:9806" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="9822:15202" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="9848:9861" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="15241:15325" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="15361:15865" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="15385:15454" placeholder="{...}" />
+            <marker date="1453873377675" expanded="true" signature="15474:15852" placeholder="{...}" />
+            <marker date="1453873377675" expanded="true" signature="15878:16173" placeholder="..." />
+            <marker date="1453873377675" expanded="true" signature="15900:16019" placeholder="{...}" />
+            <marker date="1453873377675" expanded="true" signature="16265:16579" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7746479">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
