@@ -9,15 +9,15 @@ var reload = browserSync.reload;
 
 // Optimize html
 gulp.task('html', function () {
-    return gulp.src(['app/*.html', 'app/views/*.html'], {base: 'app'})
+    return gulp.src('app/**/*.html')
         .pipe($.minifyHtml())
         .pipe(gulp.dest('dist'))
         .pipe($.size({title: 'html'}));
 });
 
 // Optimize images
-gulp.task('images', ['copy-images'], function () {
-    return gulp.src(['app/img/*', 'app/views/images/*.png'], {base: 'app'})
+gulp.task('images', function () {
+    return gulp.src('app/**/*.{png,jpg}')
         .pipe($.cache($.imagemin({
             progressive: true,
             interlaced: true
@@ -26,16 +26,9 @@ gulp.task('images', ['copy-images'], function () {
         .pipe($.size({title: 'images'}));
 });
 
-// Copy images that can't be optimized (probably corrupted)
-gulp.task('copy-images', function () {
-    return gulp.src('app/views/images/pizzeria.jpg', {base: 'app'})
-        .pipe(gulp.dest('dist'))
-        .pipe($.size({title: 'copy-images'}));
-});
-
 // Optimize styles
 gulp.task('styles', function () {
-    return gulp.src(['app/css/*.css', 'app/views/css/*.css'], {base: 'app'})
+    return gulp.src('app/**/*.css')
         .pipe($.sourcemaps.init())
         .pipe($.csso())
         .pipe($.sourcemaps.write('.'))
@@ -45,7 +38,7 @@ gulp.task('styles', function () {
 
 // Optimize scripts
 gulp.task('scripts', function () {
-    return gulp.src(['app/js/*.js', 'app/views/js/*.js'], {base: 'app'})
+    return gulp.src('app/**/*.js')
         .pipe($.sourcemaps.init())
         .pipe($.uglify())
         .pipe($.sourcemaps.write('.'))

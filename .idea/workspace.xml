@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab4e8df-482d-4a8b-a626-1a3ae3d9b9d3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2048.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cam_be_like.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mobilewebdev.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/profilepic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/perfmatters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-2048.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-mobile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project-webperf.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/images/pizza.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/images/pizzeria.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/pizza.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/images/pizzeria.jpg" afterPath="$PROJECT_DIR$/app/views/images/pizzeria.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/images/pizzeria.jpg" afterPath="$PROJECT_DIR$/dist/views/images/pizzeria.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="frontend-nanodegree-mobile-portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="deploy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.056338027">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -61,10 +46,11 @@
       <list>
         <option value="$PROJECT_DIR$/gulpfile.babel.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/deploy" />
       </list>
     </option>
   </component>
@@ -126,38 +112,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -215,7 +169,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1602" height="906" extended-state="7" />
+    <frame x="-1" y="0" width="1602" height="906" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -285,45 +239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/print.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/views/pizza.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding>
-            <marker date="1453868702228" expanded="true" signature="2179:2197" placeholder="..." />
-            <marker date="1453868702228" expanded="true" signature="2542:2560" placeholder="..." />
-            <marker date="1453868702228" expanded="true" signature="2954:2967" placeholder="..." />
-            <marker date="1453868702228" expanded="true" signature="3301:3314" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1971831">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <marker date="1453854015179" expanded="true" signature="276:453" placeholder="{...}" />
-            <marker date="1453854015179" expanded="true" signature="525:787" placeholder="{...}" />
-            <marker date="1453854015179" expanded="true" signature="636:707" placeholder="{&quot;progressive&quot;: true...}" />
-            <marker date="1453854015179" expanded="true" signature="888:1039" placeholder="{...}" />
-            <marker date="1453854015179" expanded="true" signature="1094:1347" placeholder="{...}" />
-            <marker date="1453854015179" expanded="true" signature="1404:1656" placeholder="{...}" />
-            <marker date="1453854015179" expanded="true" signature="1788:1853" placeholder="{...}" />
-            <marker date="1453854015179" expanded="true" signature="1935:2306" placeholder="{...}" />
-            <marker date="1453854015179" expanded="true" signature="1953:2005" placeholder="{&quot;server&quot;: 'dist'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
@@ -347,32 +262,6 @@
             <marker date="1452136460000" expanded="true" signature="954:1078" placeholder="{...}" />
             <marker date="1452136460000" expanded="true" signature="1265:1318" placeholder="{...}" />
             <marker date="1452136460000" expanded="true" signature="1441:1506" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1453868702172" expanded="true" signature="28:2733" placeholder="..." />
-            <marker date="1453868702172" expanded="true" signature="353:2726" placeholder="..." />
-            <marker date="1453868702172" expanded="true" signature="490:2719" placeholder="..." />
-            <marker date="1453868702172" expanded="true" signature="1548:1561" placeholder="..." />
-            <marker date="1453868702172" expanded="true" signature="1795:2299" placeholder="..." />
-            <marker date="1453868702172" expanded="true" signature="1819:1888" placeholder="{...}" />
-            <marker date="1453868702172" expanded="true" signature="1908:2286" placeholder="{...}" />
-            <marker date="1453868702172" expanded="true" signature="2307:2602" placeholder="..." />
-            <marker date="1453868702172" expanded="true" signature="2329:2448" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -478,6 +367,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33802816">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <marker date="1453871449613" expanded="true" signature="276:419" placeholder="{...}" />
+            <marker date="1453871449613" expanded="true" signature="474:702" placeholder="{...}" />
+            <marker date="1453871449613" expanded="true" signature="551:622" placeholder="{&quot;progressive&quot;: true...}" />
+            <marker date="1453871449613" expanded="true" signature="757:969" placeholder="{...}" />
+            <marker date="1453871449613" expanded="true" signature="1026:1240" placeholder="{...}" />
+            <marker date="1453871449613" expanded="true" signature="1372:1437" placeholder="{...}" />
+            <marker date="1453871449613" expanded="true" signature="1519:1890" placeholder="{...}" />
+            <marker date="1453871449613" expanded="true" signature="1537:1589" placeholder="{&quot;server&quot;: 'dist'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056338027">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
         </state>
       </provider>
