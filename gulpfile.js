@@ -46,6 +46,14 @@ gulp.task('scripts', function () {
         .pipe($.size({title: 'scripts'}));
 });
 
+// Inline everything we can in index.html
+gulp.task('inline', function () {
+    gulp.src('dist/index.html')
+        .pipe($.inline({base: 'dist'}))
+        .pipe(gulp.dest('dist'))
+        .pipe($.size({title: 'inline'}));
+});
+
 // Clean output directory
 gulp.task('clean', del.bind(null, 'dist'));
 
