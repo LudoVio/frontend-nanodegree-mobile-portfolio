@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab4e8df-482d-4a8b-a626-1a3ae3d9b9d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="frontend-nanodegree-mobile-portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7746479">
-              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.74647886">
+              <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -45,10 +47,10 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/deploy" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -91,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,8 +139,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend-nanodegree-mobile-portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -244,16 +264,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1453872859100" expanded="true" signature="0:404" placeholder="{...}" />
-            <marker date="1453872859100" expanded="true" signature="0:405" placeholder="{...}" />
-            <marker date="1453872859100" expanded="true" signature="23:136" placeholder="{&quot;del&quot;: &quot;^1.1.0&quot;...}" />
-            <marker date="1453872859100" expanded="true" signature="23:402" placeholder="{&quot;del&quot;: &quot;^1.1.0&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -261,12 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14084508">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <marker date="1453872859100" expanded="true" signature="0:404" placeholder="{...}" />
-            <marker date="1453872859100" expanded="true" signature="0:405" placeholder="{...}" />
-            <marker date="1453872859100" expanded="true" signature="23:136" placeholder="{&quot;del&quot;: &quot;^1.1.0&quot;...}" />
-            <marker date="1453872859100" expanded="true" signature="23:402" placeholder="{&quot;del&quot;: &quot;^1.1.0&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -274,12 +296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.056338027">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <marker date="1452136460000" expanded="true" signature="5:159" placeholder="{...}" />
-            <marker date="1452136460000" expanded="true" signature="954:1078" placeholder="{...}" />
-            <marker date="1452136460000" expanded="true" signature="1265:1318" placeholder="{...}" />
-            <marker date="1452136460000" expanded="true" signature="1441:1506" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -287,18 +303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1452136460000" expanded="true" signature="31:2435" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="40:998" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="570:863" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="592:709" placeholder="{...}" />
-            <marker date="1452136460000" expanded="true" signature="1008:2427" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1021:1150" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1179:2420" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1204:1334" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1363:2319" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="2333:2417" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -306,18 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1452136460000" expanded="true" signature="31:2625" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="40:998" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="570:863" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="592:709" placeholder="{...}" />
-            <marker date="1452136460000" expanded="true" signature="1008:2617" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1021:1150" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1179:2610" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1204:1370" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1399:2509" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="2523:2607" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -325,18 +317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1452136460000" expanded="true" signature="31:2522" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="40:988" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="571:864" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="593:710" placeholder="{...}" />
-            <marker date="1452136460000" expanded="true" signature="998:2514" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1011:1140" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1169:2507" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1194:1367" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="1396:2406" placeholder="..." />
-            <marker date="1452136460000" expanded="true" signature="2420:2504" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -356,7 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -364,80 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.056338027">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5915493">
-          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
-          <folding>
-            <marker date="1453871901920" expanded="true" signature="31:3198" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="40:410" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="420:3190" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="433:562" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="591:3183" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="616:925" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="954:2109" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="967:2098" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="982:1267" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="1283:1567" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="1583:1866" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="1882:2084" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="1908:1921" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="2123:2207" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="2243:2747" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="2267:2336" placeholder="{...}" />
-            <marker date="1453871901920" expanded="true" signature="2356:2734" placeholder="{...}" />
-            <marker date="1453871901920" expanded="true" signature="2760:3055" placeholder="..." />
-            <marker date="1453871901920" expanded="true" signature="2782:2901" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9033877">
-            <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.85915494">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <marker date="1453873377675" expanded="true" signature="31:16603" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="40:2002" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="300:1546" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="1572:1992" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="2012:16595" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="2025:8502" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="8531:16588" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="8556:8865" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="8894:15227" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="8907:15216" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="8922:9207" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="9223:9507" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="9523:9806" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="9822:15202" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="9848:9861" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="15241:15325" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="15361:15865" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="15385:15454" placeholder="{...}" />
-            <marker date="1453873377675" expanded="true" signature="15474:15852" placeholder="{...}" />
-            <marker date="1453873377675" expanded="true" signature="15878:16173" placeholder="..." />
-            <marker date="1453873377675" expanded="true" signature="15900:16019" placeholder="{...}" />
-            <marker date="1453873377675" expanded="true" signature="16265:16579" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,6 +350,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7746479">
           <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.81932247">
+            <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.883495">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <marker date="1453916038982" expanded="true" signature="30:16185" placeholder="..." />
+            <marker date="1453916038982" expanded="true" signature="36:1959" placeholder="..." />
+            <marker date="1453916038982" expanded="true" signature="265:1511" placeholder="..." />
+            <marker date="1453916038982" expanded="true" signature="1532:1952" placeholder="..." />
+            <marker date="1453916038982" expanded="true" signature="1965:16178" placeholder="..." />
+            <marker date="1453916038982" expanded="true" signature="8454:16171" placeholder="..." />
+            <marker date="1453916038982" expanded="false" signature="9522:9535" placeholder="..." />
+            <marker date="1453916038982" expanded="true" signature="14962:15466" placeholder="..." />
+            <marker date="1453916038982" expanded="true" signature="14986:15055" placeholder="{...}" />
+            <marker date="1453916038982" expanded="true" signature="15075:15453" placeholder="{...}" />
+            <marker date="1453916038982" expanded="true" signature="15474:15769" placeholder="..." />
+            <marker date="1453916038982" expanded="true" signature="15496:15615" placeholder="{...}" />
+            <marker date="1453916038982" expanded="true" signature="15851:16165" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74647886">
+          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
           <folding />
         </state>
       </provider>

@@ -28,4 +28,4 @@ $ gulp serve
 * All javascripts are placed juste before `</body>`
 * Fonts are loaded asynchronously
 * `media="print"` was added to the `link` element that load "print.css"
-* style.css is pretty small so it's now inlined directly inside the html for save an http request
+* inline all files but fonts into index.html to save some http requests
