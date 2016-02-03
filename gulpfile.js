@@ -39,9 +39,9 @@ gulp.task('styles', function () {
 // Optimize scripts
 gulp.task('scripts', function () {
     return gulp.src('app/**/*.js')
-        //.pipe($.sourcemaps.init())
-        //.pipe($.uglify())
-        //.pipe($.sourcemaps.write('.'))
+        .pipe($.sourcemaps.init())
+        .pipe($.uglify())
+        .pipe($.sourcemaps.write('.'))
         .pipe(gulp.dest('dist'))
         .pipe($.size({title: 'scripts'}));
 });
