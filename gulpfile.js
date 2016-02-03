@@ -39,9 +39,9 @@ gulp.task('styles', function () {
 // Optimize scripts
 gulp.task('scripts', function () {
     return gulp.src('app/**/*.js')
-        .pipe($.sourcemaps.init())
-        .pipe($.uglify())
-        .pipe($.sourcemaps.write('.'))
+        //.pipe($.sourcemaps.init())
+        //.pipe($.uglify())
+        //.pipe($.sourcemaps.write('.'))
         .pipe(gulp.dest('dist'))
         .pipe($.size({title: 'scripts'}));
 });
@@ -64,10 +64,15 @@ gulp.task('build', function (cb) {
     runSequence('clean', ['html', 'images', 'styles', 'scripts'], 'inline', cb);
 });
 
-// Watch files for changes & reload
+// Serve the dist
 gulp.task('serve', ['build'], function () {
     browserSync({
         server: 'dist',
         tunnel: true
     });
+
+    gulp.watch('app/**/*.html', ['html']);
+    gulp.watch('app/**/*.{png,jpg}', ['images']);
+    gulp.watch('app/**/*.css', ['styles']);
+    gulp.watch('app/**/*.js', ['scripts']);
 });

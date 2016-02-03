@@ -29,3 +29,7 @@ $ gulp serve
 * Fonts are loaded asynchronously
 * `media="print"` was added to the `link` element that load "print.css"
 * inline all files but fonts into index.html to save some http requests
+
+# Optimizations: pizza.html
+
+* Put the read of document.body.scrollTop outside of the loop to avoid relayout on each iteration
