@@ -421,39 +421,16 @@ var resizePizzas = function (size) {
 
     changeSliderLabel(size);
 
-    // Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
-    function determineDx(elem, size) {
-        var oldWidth = elem.offsetWidth;
-        var windowWidth = document.querySelector("#randomPizzas").offsetWidth;
-        var oldSize = oldWidth / windowWidth;
-
-        // TODO: change to 3 sizes? no more xl?
-        // Changes the slider value to a percent width
-        function sizeSwitcher(size) {
-            switch (size) {
-                case "1":
-                    return 0.25;
-                case "2":
-                    return 0.3333;
-                case "3":
-                    return 0.5;
-                default:
-                    console.log("bug in sizeSwitcher");
-            }
-        }
-
-        var newSize = sizeSwitcher(size);
-        var dx = (newSize - oldSize) * windowWidth;
-
-        return dx;
-    }
-
     // Iterates through pizza elements on the page and changes their widths
     function changePizzaSizes(size) {
-        for (var i = 0; i < document.querySelectorAll(".randomPizzaContainer").length; i++) {
-            var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
-            var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
-            document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
+        // Inside the loop:
+        // * Avoid queries
+        // * Avoid the read of properties that will trigger relayouts
+        var pizzas = document.querySelectorAll(".randomPizzaContainer");
+        var container_width = document.querySelector("#randomPizzas").offsetWidth;
+        var elem_new_width = container_width / (5 - size);
+        for (var i = 0; i < pizzas.length; i++) {
+            pizzas[i].style.width = elem_new_width + 'px';
         }
     }
 
@@ -503,7 +480,6 @@ function updatePositions() {
     window.performance.mark("mark_start_frame");
 
     var items = document.querySelectorAll('.mover');
-
     // Put the read of document.body.scrollTop outside of the loop.
     // If it's on the loop the browser will need to trigger a relayout to know the actual value.
     var $scroll_ratio = document.body.scrollTop / 1250;
@@ -522,8 +498,65 @@ function updatePositions() {
     }
 }
 
+// _now: Grabbed from underscore.
+// A (possibly faster) way to get the current timestamp as an integer.
+var _now = Date.now || function () {
+        return new Date().getTime();
+    };
+
+// _throttle: Grabbed from underscore.
+// Returns a function, that, when invoked, will only be triggered at most once
+// during a given window of time. Normally, the throttled function will run
+// as much as it can, without ever going more than once per `wait` duration;
+// but if you'd like to disable the execution on the leading edge, pass
+// `{leading: false}`. To disable execution on the trailing edge, ditto.
+var _throttle = function (func, wait, options) {
+    var timeout, context, args, result;
+    var previous = 0;
+    if (!options) options = {};
+
+    var later = function () {
+        previous = options.leading === false ? 0 : _now();
+        timeout = null;
+        result = func.apply(context, args);
+        if (!timeout) context = args = null;
+    };
+
+    var throttled = function () {
+        var now = _now();
+        if (!previous && options.leading === false) previous = now;
+        var remaining = wait - (now - previous);
+        context = this;
+        args = arguments;
+        if (remaining <= 0 || remaining > wait) {
+            if (timeout) {
+                clearTimeout(timeout);
+                timeout = null;
+            }
+            previous = now;
+            result = func.apply(context, args);
+            if (!timeout) context = args = null;
+        } else if (!timeout && options.trailing !== false) {
+            timeout = setTimeout(later, remaining);
+        }
+        return result;
+    };
+
+    throttled.cancel = function () {
+        clearTimeout(timeout);
+        previous = 0;
+        timeout = context = args = null;
+    };
+
+    return throttled;
+};
+
+// Throttleize updatePositions.
+// Scroll event fire so many times, someone has to do something !
+var throttledUpdatePositions = _throttle(updatePositions, 50);
+
 // runs updatePositions on scroll
-window.addEventListener('scroll', updatePositions);
+window.addEventListener('scroll', throttledUpdatePositions);
 
 // Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function () {
