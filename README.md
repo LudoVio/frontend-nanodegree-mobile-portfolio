@@ -38,3 +38,4 @@ $ gulp serve
 * On `updatePositions` put the read of `document.body.scrollTop` outside of the loop to avoid relayout on each iteration
 * Use of a throttled version of `updatePositions` because scrolling can trigger a lot of scroll event
 * Refactor `resizePizzas`. Put queries and reads of layout properties outside of the loop
+* Remove array.length from loop's end condition
