@@ -39,3 +39,4 @@ $ gulp serve
 * Use of a throttled version of `updatePositions` because scrolling can trigger a lot of scroll event
 * Refactor `resizePizzas`. Put queries and reads of layout properties outside of the loop
 * Remove array.length from loop's end condition
+* Put the pizzasDiv's query outside of the loop
