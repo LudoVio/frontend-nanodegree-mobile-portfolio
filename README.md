@@ -41,3 +41,4 @@ $ gulp serve
 * Remove array.length from loop's end condition
 * Put the pizzasDiv's query outside of the loop
 * Put `var` statements outside of loops
+* Reduce the number of pizzas created
