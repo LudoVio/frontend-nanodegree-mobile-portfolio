@@ -40,3 +40,4 @@ $ gulp serve
 * Refactor `resizePizzas`. Put queries and reads of layout properties outside of the loop
 * Remove array.length from loop's end condition
 * Put the pizzasDiv's query outside of the loop
+* Put `var` statements outside of loops
