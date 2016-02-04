@@ -33,7 +33,8 @@ $ gulp serve
 # Optimizations: pizza.html
 
 * Activate hardware acceleration for `.mover` in *wiews/css/style.css*
-* replace `querySelector("#myId")` by `getElementById("myId")`
+* Replace `querySelector("#myId")` by `getElementById("myId")`
+* Replace `querySelector(".myClass")` by `getElementsByClassName("myClass")`
 * On `updatePositions` put the read of `document.body.scrollTop` outside of the loop to avoid relayout on each iteration
 * Use of a throttled version of `updatePositions` because scrolling can trigger a lot of scroll event
 * Refactor `resizePizzas`. Put queries and reads of layout properties outside of the loop

@@ -429,8 +429,8 @@ var resizePizzas = function (size) {
         // Inside the loop:
         // * Avoid queries
         // * Avoid the read of properties that will trigger relayouts
-        var pizzas = document.querySelectorAll(".randomPizzaContainer");
-        var container_width = document.querySelector("#randomPizzas").offsetWidth;
+        var pizzas = document.getElementsByClassName("randomPizzaContainer");
+        var container_width = document.getElementById("randomPizzas").offsetWidth;
         var elem_new_width = container_width / (5 - size);
         for (var i = 0; i < pizzas.length; i++) {
             pizzas[i].style.width = elem_new_width + 'px';
